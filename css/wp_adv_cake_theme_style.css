@@ -1,0 +1,29 @@
+.wp_adv_cake_row{
+  display: flex !important;
+}
+.single-cake-info{
+  margin: auto;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.wp_adv_cake_green_btn{
+  background-color: #4CAF50;
+}
+.wp_adv_cake_buy_tick{
+  font-size: 100px !important;
+  display: grid !important;
+  color: green !important;
+}
+#search_cake_error{
+  color: red;
+}
