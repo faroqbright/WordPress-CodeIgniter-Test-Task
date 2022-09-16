@@ -1,0 +1,207 @@
+{
+	"info": {
+		"_postman_id": "f44154bb-4aca-4944-b081-5c0f2a7c1fb1",
+		"name": "codeigniter_apis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12439646"
+	},
+	"item": [
+		{
+			"name": "save cake",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "cake_name",
+							"value": "abcasda",
+							"type": "text"
+						},
+						{
+							"key": "cake_type",
+							"value": "abc",
+							"type": "text"
+						},
+						{
+							"key": "cake_price",
+							"value": "50",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://demo.appcrates.net/codeigniter/codeigniter_4/index.php/api/cake/save",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"appcrates",
+						"net"
+					],
+					"path": [
+						"codeigniter",
+						"codeigniter_4",
+						"index.php",
+						"api",
+						"cake",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all cakes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://demo.appcrates.net/codeigniter/codeigniter_4/index.php/api/cake/get",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"appcrates",
+						"net"
+					],
+					"path": [
+						"codeigniter",
+						"codeigniter_4",
+						"index.php",
+						"api",
+						"cake",
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get cake info by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://demo.appcrates.net/codeigniter/codeigniter_4/index.php/api/cake/get_cake_info/13",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"appcrates",
+						"net"
+					],
+					"path": [
+						"codeigniter",
+						"codeigniter_4",
+						"index.php",
+						"api",
+						"cake",
+						"get_cake_info",
+						"13"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete cake info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://demo.appcrates.net/codeigniter/codeigniter_4/index.php/api/cake/del_cake/12",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"appcrates",
+						"net"
+					],
+					"path": [
+						"codeigniter",
+						"codeigniter_4",
+						"index.php",
+						"api",
+						"cake",
+						"del_cake",
+						"12"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sale cake",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "cake_id",
+							"value": "13",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://demo.appcrates.net/codeigniter/codeigniter_4/index.php/api/cake/sale",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"appcrates",
+						"net"
+					],
+					"path": [
+						"codeigniter",
+						"codeigniter_4",
+						"index.php",
+						"api",
+						"cake",
+						"sale"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "search",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "search_with",
+							"value": "t",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://demo.appcrates.net/codeigniter/codeigniter_4/index.php/api/cake/search",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"appcrates",
+						"net"
+					],
+					"path": [
+						"codeigniter",
+						"codeigniter_4",
+						"index.php",
+						"api",
+						"cake",
+						"search"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
